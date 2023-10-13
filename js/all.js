@@ -23,7 +23,7 @@ function addList(){
 
 //enter優化
 txt.addEventListener('keypress',function(e){
-    if(e.key = 'Enter'){
+    if(e.key == 'Enter'){
         addList();
     }
 })
